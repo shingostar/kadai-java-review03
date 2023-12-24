@@ -1,19 +1,22 @@
-package animal;
+package baseball;
 
-public class Animal{
+public class BaseBallTeam{
 
     private String name;
-    private int name;
-    private int age;
+    private int win;
+    private int lose;
+    private int dtaw;
 
-    public Review04(String name, int age) {
+    public BaseBallTeam(String name, int win,int lose,int draw) {
         this.name = name;
-        this.age = age;
+        this.win = win;
+        this.lose = lose;
+        this.draw = draw;
     }
     public double getRate() {
         return(double) win/(win+lose);
     }
     public void report() {
-        System.out.println(this.name+"です。"+age+"歳です。");
+        System.out.println(this.name+"の2022年の成績は"+win+"勝"+lose+"敗"+draw+"分、勝率は"+"getRate()"+です。);
     }
 }
