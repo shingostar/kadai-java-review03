@@ -5,7 +5,7 @@ public class BaseBallTeam{
     private String name;
     private int win;
     private int lose;
-    private int dtaw;
+    private int draw;
 
     public BaseBallTeam(String name, int win,int lose,int draw) {
         this.name = name;
